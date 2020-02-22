@@ -26,7 +26,9 @@ more quickly compared to grid search.
 
 [13] J. Snoek, H. Larochelle, and R. P. Adams, “Practical bayesian optimization of machine learning algorithms,”
 in Advances in neural information processing systems, 2012, pp. 2951–2959.
+
 [14] K. Weinberger, “Bayesian global optimization,” http://www.cs.cornell.edu/courses/cs4780/2018fa/lectures/lecturenote15.html,
 2018.
+
 [15] T. Karras, S. Laine, and T. Aila, “A style-based generator architecture for generative adversarial networks,” in
 Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2019, pp. 4401–4410.
