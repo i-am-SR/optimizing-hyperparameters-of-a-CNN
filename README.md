@@ -9,16 +9,15 @@ per digit). From the test dataset, select 2000 samples (200 samples per digit). 
 the experiment. The CNN architecture consists of 3 convolution layers followed by 3 fully connected
 layers including the classification layer. The first convolution layer has 32 filters of size 5 × 5 with
 zero padding and stride 1. The second convolution layer has 64 filters of size 3×3 with zero padding
-and stride 1. The third convolution layer has 128 filters of size 3 × 3 with zero padding and stride
-1. The first and second fully connected layers are of dimensions 1024, the third fully connected
+and stride 1. The third convolution layer has 128 filters of size 3 × 3 with zero padding and stride 1. The first and second fully connected layers are of dimensions 1024, the third fully connected
 layer (softmax-cross-entropy) is of size 10. Apply ReLU activations for all layers except the last
 layer, which has softmax activation. Apply dropout to the first and second fully connected layers.
 we have 5 hyper parameters for this network. 
-(1) Starting Learning Rate: η0, 
-(2) Learning Rate 4 Decay: δ, where learning-rate η = η0(1+δ∗t) , where t is the epoch number, 
-(3) Mini-Batch size: B,
-(4) Dropout parameter p1 for the first fully connected layer, 
-(5) Dropout parameter p2 for the second fully connected layer. 
+1. Starting Learning Rate: η0, 
+2. Learning Rate 4 Decay: δ, where learning-rate η = η0(1+δ∗t) , where t is the epoch number, 
+3. Mini-Batch size: B,
+4. Dropout parameter p1 for the first fully connected layer, 
+5. Dropout parameter p2 for the second fully connected layer. 
 The goal is to estimate the optimal values of the hyper parameters
 using the validation set. Apply the principles outlined in this work [13] and [14] (Bayesian Global
 Optimization) to demonstrate that Gaussian Processes arrive at the optimal hyper parameters much
