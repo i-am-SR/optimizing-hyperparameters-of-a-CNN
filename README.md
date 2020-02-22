@@ -1,6 +1,8 @@
 # optimizing-hyperparameters-of-a-CNN
 Optimizing the hyper-parameters of a Convolutional Neural Network using gaussian processes
 
+Completed by - Samarth Rawal, Devan Pratt, Sumit Rawat, Wil Gibbs
+
 In this project you will apply Gaussian Processes to efficiently select best hyper-parameters for a
 model. You will implement a convolutional neural network (CNN) to classify the cropped color
 digits from the SVHN dataset [12]. Using the training set, create your training dataset of 10, 000
