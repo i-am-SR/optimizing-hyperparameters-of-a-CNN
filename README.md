@@ -24,6 +24,8 @@ using the validation set. Apply the principles outlined in this work [13] and [1
 Optimization) to demonstrate that Gaussian Processes arrive at the optimal hyper parameters much
 more quickly compared to grid search.
 
+![Results](/results.png)
+
 [13] J. Snoek, H. Larochelle, and R. P. Adams, “Practical bayesian optimization of machine learning algorithms,”
 in Advances in neural information processing systems, 2012, pp. 2951–2959.
 
