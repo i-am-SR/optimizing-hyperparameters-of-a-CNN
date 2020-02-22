@@ -18,6 +18,7 @@ we have 5 hyper parameters for this network.
 3. Mini-Batch size: B,
 4. Dropout parameter p1 for the first fully connected layer, 
 5. Dropout parameter p2 for the second fully connected layer. 
+
 The goal is to estimate the optimal values of the hyper parameters
 using the validation set. Apply the principles outlined in this work [13] and [14] (Bayesian Global
 Optimization) to demonstrate that Gaussian Processes arrive at the optimal hyper parameters much
